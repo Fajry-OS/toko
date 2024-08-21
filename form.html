@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form{
+            border: 5px black;
+            border-radius: 15px;
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+
+        <form action="">
+            <span>Isilah Form Di Bawah Ini</span>
+            <hr>
+            <label for="name">Nama Lengkap:</label><br>
+            <input type="text" name="form-name" id="name" class="input-type" required placeholder="Masukkan Nama Anda"><br>
+            <label for="email">Emai:</label><br>
+            <input type="email" required class="email-input" id="email" placeholder="Masukkan Email Anda"><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="" id="password" required placeholder="Buatlah Password"><br>
+            <label for="telp">No Telephone</label><br>
+            <input type="number" name="" id="telp" placeholder="Masukkan Nomor Telephone" required><br>
+            <label for="alamat">Alamat</label> <br>
+            <textarea name="alamat" id="alamat" rows="9" cols="50" placeholder="Masukkan Alamat Anda"></textarea><br>    
+    
+            <label for="hobby">Hobby</label><br>
+            <input type="checkbox" name="" id="hobby">Bermain Game <br>
+            <input type="checkbox" id="hobby">Olahraga <br>
+            <input type="checkbox" id="hobby">Tidur <br>
+            <input type="checkbox" id="hobby">Kuliner <br>
+            <input type="checkbox" id="hobby">Travelling <br><br>
+    
+            <label for="gender">Jenis Kelamin</label> <br>
+            <input type="radio" name="gender" value="laki-laki" id="gender"><label for="gender">Laki-laki</label><br>
+            <input type="radio" name="gender" value="perempuan" id="gender"><label for="gender">Perempuan</label> <br><br>
+
+            <label for="negara">Negara Domisili</label><br>
+            <select name="negara" id="negara">
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="amerika">Amerika</option>
+                <option value="arab">Saudi Arabia</option>
+
+            </select><br><br><br>
+    
+            <input type="submit" name="submit" value="submit">
+            <input type="reset">
+    
+        </form>
+ <table border="1" cellpadding="10px">
+    <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Alamat</th>
+        <th>Jenis Kelamin</th>
+        <th>Pekerjaan</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Meidhika Nawa Sapta</td>
+        <td>Bekasi</td>
+        <td>Laki-laki</td>
+        <td>Mahasiswa</td>
+    </tr>
+ </table>
+</body>
+</html>
